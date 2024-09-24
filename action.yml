@@ -1,5 +1,5 @@
-name: 'Fast FTP'
-description: 'Syncs files via FTP/SFTP to a remote server'
+name: 'Pterodactyl Fast FTP Fork'
+description: 'Syncs files via FTP/SFTP to a remote server. Forked for Pterodactyl usage.'
 inputs:
   server:
     description: 'FTP server name (you may need to specify a port)'
