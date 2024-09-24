@@ -9,7 +9,7 @@ if [ $4 = "sftp" ]; then
   sshpass -p $3 sftp -o StrictHostKeyChecking=no -P $PORT $2@$1
   echo "Connection established"
 else
-  PORT="21"
+  PORT="2022"
 fi;
 
 echo "Using $4 to connect to port $PORT"
